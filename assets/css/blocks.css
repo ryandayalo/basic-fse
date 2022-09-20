@@ -1,0 +1,17 @@
+/* Button Block Style
+--------------------------------------------- */
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:hover,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--primary) !important;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:active,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:active {
+    background-color: var(--wp--preset--color--secondary) !important;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:focus,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:focus {
+    background-color: var(--wp--preset--color--neutral-6) !important;
+}
